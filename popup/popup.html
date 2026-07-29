@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ReelShift</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="panel">
+      <h1 id="title"></h1>
+
+      <label class="row">
+        <input type="checkbox" id="enabled" />
+        <span id="labelMaster"></span>
+      </label>
+
+      <label class="row">
+        <input type="checkbox" id="youtubeEnabled" />
+        <span id="labelYouTube"></span>
+      </label>
+
+      <label class="row">
+        <input type="checkbox" id="facebookEnabled" />
+        <span id="labelFacebook"></span>
+      </label>
+
+      <label class="row column">
+        <span id="labelDelay"></span>
+        <div class="delay-line">
+          <input type="range" id="delayMs" min="0" max="5000" step="100" />
+          <span id="delayValue" aria-live="polite"></span>
+        </div>
+      </label>
+
+      <label class="row">
+        <input type="checkbox" id="pauseWhenInteracting" />
+        <span id="labelPauseInteracting"></span>
+      </label>
+
+      <p class="status" id="statusLocal"></p>
+      <p class="notice" id="saveNotice"></p>
+      <a href="#" id="openOptions"></a>
+    </main>
+
+    <script src="../shared/constants.js"></script>
+    <script src="../shared/settings.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

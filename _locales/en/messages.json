@@ -1,0 +1,66 @@
+{
+  "extName": {
+    "message": "ReelShift",
+    "description": "Extension display name shown in the browser and store listing."
+  },
+  "extDescription": {
+    "message": "Auto next for YouTube Shorts and Facebook Reels when a video ends.",
+    "description": "Short description used in the manifest and store listing."
+  },
+  "popupTitle": {
+    "message": "ReelShift",
+    "description": "Popup heading."
+  },
+  "labelMaster": {
+    "message": "Enable ReelShift",
+    "description": "Master toggle label."
+  },
+  "labelYouTube": {
+    "message": "YouTube Shorts",
+    "description": "YouTube site toggle label."
+  },
+  "labelFacebook": {
+    "message": "Facebook Reels",
+    "description": "Facebook site toggle label."
+  },
+  "labelDelay": {
+    "message": "Delay before next",
+    "description": "Delay slider label."
+  },
+  "labelPauseInteracting": {
+    "message": "Pause while typing or commenting",
+    "description": "Interaction pause toggle label."
+  },
+  "statusLocal": {
+    "message": "Settings stay on this device. No browsing data is sent to a server.",
+    "description": "Privacy status line in the UI."
+  },
+  "linkOptions": {
+    "message": "Open options",
+    "description": "Link to the options page."
+  },
+  "optionsTitle": {
+    "message": "ReelShift Options",
+    "description": "Options page heading."
+  },
+  "howItWorksTitle": {
+    "message": "How it works",
+    "description": "Options section title."
+  },
+  "howItWorksBody": {
+    "message": "When a YouTube Short or Facebook Reel finishes, ReelShift waits for your chosen delay and then moves to the next video. You can turn the extension off at any time.",
+    "description": "Options how-it-works paragraph."
+  },
+  "privacyTitle": {
+    "message": "Privacy",
+    "description": "Options privacy section title."
+  },
+  "privacyBody": {
+    "message": "ReelShift stores only your preferences locally in the browser. It does not collect analytics or personal content from videos.",
+    "description": "Options privacy paragraph."
+  },
+  "saveNotice": {
+    "message": "Changes save automatically.",
+    "description": "Autosave notice."
+  }
+}
